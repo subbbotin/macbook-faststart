@@ -17,10 +17,11 @@ brew cask install the-unarchiver
 brew cask install zoomus
 brew cask install atom
 brew cask install vlc
-brew cask install google-drive-file-stream
 brew cask install telegram
 brew cask install ccleaner
 # Remove brew cruft
 brew cleanup
 # Remove cask cruft
 brew cask cleanup
+# Download Google Drive File Stream
+open https://dl.google.com/drive-file-stream/googledrivefilestream.dmg
