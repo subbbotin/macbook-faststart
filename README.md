@@ -4,5 +4,6 @@
 3. [Установить касание трекпада как клик](https://scrapp.me/21t7cj)
 4. [Включить зарядку в процентах](https://scrapp.me/m5439b)
 5. Поставить [бирмановскую раскладку](https://ilyabirman.ru/projects/typography-layout/) и удалить встроенную английскую через добавление японской
-6. Скачать [shell-скрипт](https://github.com/subbbotin/ob-macbook-initial/archive/master.zip) и шарахнуть его из терминала командой `sh initial.sh`
-7. Поставить Microsoft Office :trollface:
+6. Скачать [shell-скрипт](https://github.com/subbbotin/ob-macbook-initial/archive/master.zip) и шарахнуть его из терминала командой `sh initial.sh`. Скрипт долго обновляет Command Line Tools и потом шарашит всё остальное, иногда спрашивая пароль, так что за ним надо следить и вводить пароль когда надо.
+7. Последним шагом качается Google Drive File Stream — официальный dmg'шник. Нужно поставить его руками — через `brew cask` получается нерабочее говнище.
+8. Поставить Microsoft Office :trollface:
