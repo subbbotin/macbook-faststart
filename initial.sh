@@ -29,3 +29,4 @@ open https://dl.google.com/drive-file-stream/googledrivefilestream.dmg
 # Download Zoom
 open https://zoom.us/client/latest/Zoom.pkg
 #all pkg require password prompt
+open https://drive.google.com/a/odgersberndtson.ru/uc?export=download&confirm=dKmW&id=1TjtaGU0L4YhyTpRKUNX0NR4hHTrL9QLZ
