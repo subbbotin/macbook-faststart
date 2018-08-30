@@ -16,16 +16,14 @@ brew cask install the-unarchiver
 brew cask install atom
 brew cask install vlc
 brew cask install telegram
-brew cask install ccleaner
 brew cask install teamviewer-quicksupport
 # Remove brew cruft
 brew cleanup
 # Remove cask cruft
-#brew cask cleanup
-#Calling `brew cask cleanup` is deprecated and will be disabled on 2018-09-30! Use `brew cleanup` instead.
-# Download Google Drive File Stream
 open https://dl.google.com/drive-file-stream/googledrivefilestream.dmg
-#google drive stream require password prompt
-# Download Zoom
+# google drive stream require password prompt
 open https://zoom.us/client/latest/Zoom.pkg
-#all pkg require password prompt
+# all pkg require password prompt
+open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/10065530/BHC3100PPSMacOS109_150MU.dmg
+open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/27031742/BHC554ePSMacOS109_540MU.dmg
+# drivers for printers konica minolta
