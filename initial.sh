@@ -26,4 +26,5 @@ open https://zoom.us/client/latest/Zoom.pkg
 # all pkg require password prompt
 open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/10065530/BHC3100PPSMacOS109_150MU.dmg
 open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/27031742/BHC554ePSMacOS109_540MU.dmg
-# drivers for printers konica minolta
+open https://ftp.hp.com/pub/softlib/software12/HP_Quick_Start/osx/Applications/HP_Easy_Start.app.zip
+# drivers for printers
