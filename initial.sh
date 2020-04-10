@@ -13,7 +13,7 @@ brew upgrade --all
 brew cask install skype
 brew cask install slack
 brew cask install the-unarchiver
-brew cask install atom
+brew cask install sublime-text
 brew cask install vlc
 brew cask install teamviewer-quicksupport
 brew cleanup
