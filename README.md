@@ -1,9 +1,58 @@
-# Настройка новых макбуков
-1. Перенастроить клавиатуру — spotlight повесить на `Ctrl + Пробел`, переключение раскладки — на `⌘ + Пробел`
-2. Перенастроить чувствительность клавиатуры — [выкрутить все ползунки на максимум](https://scrapp.me/kccchg)
-3. [Установить касание трекпада как клик](https://scrapp.me/21t7cj)
-4. [Включить зарядку в процентах](https://scrapp.me/m5439b)
-5. Поставить [бирмановскую раскладку](https://ilyabirman.ru/projects/typography-layout/) и удалить встроенную английскую через добавление японской
-6. Скачать [shell-скрипт](https://github.com/subbbotin/ob-macbook-initial/archive/master.zip) и шарахнуть его из терминала командой `sh initial.sh`. Скрипт долго обновляет Command Line Tools и потом шарашит всё остальное, иногда спрашивая пароль, так что за ним надо следить и вводить пароль когда надо.
-7. Последним шагом качается Google Drive File Stream — официальный dmg'шник. Нужно поставить его руками — через `brew cask` получается нерабочее говнище.
-8. Поставить Microsoft Office :trollface:
+# 🍎 Настройка нового мака
+
+На случай, если по каким-то причинам не получилось через ассистент миграции, а ставить руками влом.
+
+---
+
+## 🚀 Быстрый старт
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/subbbotin/macbook-faststart/master/bootstrap.zsh | zsh
+```
+
+или можно скачать файлик и дёрнуть руками:
+
+[📦 Скачать bootstrap.zsh](https://raw.githubusercontent.com/subbbotin/macbook-faststart/master/bootstrap.zsh)
+
+---
+
+## ⚙️ Что делает
+
+- Ставит **Homebrew**, **Command Line Tools** и базовые CLI-утилиты (`git`, `jq`, `fzf`, `tree`, `mas`, …)
+- Настраивает **.zshrc** и **.zprofile** (цвета, промпт, алиасы, автодополнение)
+- Ставит:
+  - 🧠 GitHub Desktop
+  - 🛠️ Warp
+  - 🐘 Beekeeper Studio
+  - 🌐 Viscosity
+  - 🎧 Spotify
+  - ✏️ Shapr3D
+  - 💬 Zulip
+  - 🧩 Bambu Studio
+  - 🎨 Adobe Creative Cloud
+  - 🎨 Figma Desktop
+  - 🎧 Yandex Music
+- Чистит кеши и делает `brew cleanup`
+- (опционально) спрашивает GitHub API token для Homebrew
+
+---
+
+## 🧰 Ручные настройки macOS
+
+Пока оно шарашит, можно вручную протыкать пару штук:
+
+1. 🔤 **Шорткаты:**
+   - Spotlight → `Ctrl + Пробел`
+   - Переключение раскладки → `⌘ + Пробел`
+2. ⌨️ **Скорость реакции клавиатуры:**
+   Выкрутить все ползунки на максимум
+3. 💻 **Трекпад:**
+   Включить касание как клик
+4. 💩 **Control Center и Menu Bar:**
+   Убрать всякий мусор, запихнуть яркость клавы, блютус, включить отображение заряда в процентах
+
+---
+
+## TODO
+- Тема для Zed
+- SSH-ключ
